@@ -1,0 +1,187 @@
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: Georgia, 'Times New Roman', Times, serif;}
+
+body{
+    background-color: rgb(11, 11, 41);
+    color: linen;
+    margin: auto 3em;
+}
+.mainnav{
+    display: flex;
+    width: 100%;
+}
+.logos{display: flex;
+    margin: 1em;
+    float: right;
+    margin: 1 auto;
+}
+.logo{
+    margin: auto 0.5em;
+}
+.main{
+    display: flex;
+}
+
+.navbar{
+    display: flex;
+  flex-direction: row;
+  margin: 1em;
+  
+    }
+    .navbar a:hover{
+        background-color: antiquewhite;
+        padding: 0.5em;
+        margin: auto 2em;
+    }
+.navbar a{
+    text-decoration: none;  
+    padding: 2em;
+}
+h1{
+    margin: 1em auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+.lorem{
+    font-size: large;
+    line-height: 1.5em;
+    margin-bottom: 2em;
+}
+.btn{
+    border-radius: 0.5em;
+    padding:0.3em;
+    background-image: linear-gradient( rgb(64, 10, 10), rgb(30, 66, 30));
+    color: white;
+    margin: 3em auto;
+}
+.firstbtn{
+    margin-bottom: 2em;
+}
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    margin: 3em auto;
+}
+.pro1{
+    background-color: rgb(45, 45, 26);
+    border-radius: 1.8em 0 1.8em;
+    border: 1px solid darkgray;
+    padding: 1em 1em 1em 2em;
+    line-height: 1.9em;
+    /* width: %; */
+}
+img{
+
+ 
+  padding: 0;
+  display: inline-block;
+}
+h3{
+    margin: 2em auto;
+}
+
+#tech{
+    text-transform: capitalize;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+/* work on it on media */
+.prolist{
+    width: 30em;
+    line-height: 2em;
+    /* background-color: rgb(68, 101, 90); */
+
+}
+.firstpro{
+    display: flex;
+    flex-direction: row;
+    gap: 10em;
+}
+.span{
+    align-items: flex-end;
+}
+.hum{
+   display: flex;
+   flex-direction: row;
+}
+.one{
+    width: 15em;
+    background-color: rgb(104, 10, 10);
+    border-radius: 2em 0 0 2em;
+    padding: 0.3em;
+}
+.two{
+    width: 5em;
+    color: rgb(54, 40, 40);
+   border-radius: 0 2em 2em 0;
+   background-color:  rgb(54, 40, 40);
+}
+.reactone{
+    width: 7em;
+    background-color: rgb(104, 10, 10);
+    border-radius: 2em 0 0 2em;
+    padding: 0.3em;  
+}
+
+.reacttwo{
+    width: 13em;
+    color: rgb(54, 40, 40);
+   border-radius: 0 2em 2em 0;
+   background-color:  rgb(54, 40, 40);
+}
+.javaone{
+    width: 12em;
+    background-color: rgb(104, 10, 10);
+    border-radius: 2em 0 0 2em;
+    padding: 0.3em;  
+}
+
+.javatwo{
+    width: 8em;
+    color: rgb(54, 40, 40);
+   border-radius: 0 2em 2em 0;
+   background-color:  rgb(54, 40, 40);
+}
+.htmlone{
+    width: 15em;
+    background-color: rgb(104, 10, 10);
+    border-radius: 2em 0 0 2em;
+    padding: 0.3em;  
+}
+.htmltwo{
+    width: 5em;
+    color: rgb(54, 40, 40);
+   border-radius: 0 2em 2em 0;
+   background-color:  rgb(54, 40, 40);
+
+}
+.typeone{
+    width: 10em;
+    background-color: rgb(104, 10, 10);
+    border-radius: 2em 0 0 2em;
+    padding: 0.3em;  
+}
+.typetwo{
+    width: 10em;
+    color: rgb(54, 40, 40);
+   border-radius: 0 2em 2em 0;
+   background-color:  rgb(54, 40, 40);
+
+}
+.Additional{
+    margin: 2em auto;
+}
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+ul li{
+    line-height: 2em;
+}
+#about{
+    margin: 8em 2em  2em auto;
+}
+.about{
+    display: flex;
+    gap: 2em;
+    margin-bottom: 12em;
+}
