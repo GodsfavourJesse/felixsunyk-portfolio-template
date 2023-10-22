@@ -9,14 +9,21 @@ body{
     display: flex;
     width: 100%;
 }
-.logos{display: flex;
+.logos{
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 0.4em;
     margin: 1em;
-    float: right;
-    margin: 1 auto;
+   margin-left: auto;
+   padding: 1em;
+    /* float: right; */
+    /* margin: 1 auto; */
 }
 .logo{
     margin: auto 0.5em;
+   
 }
+
 .main{
     display: flex;
 }
@@ -67,7 +74,19 @@ h1{
     border: 1px solid darkgray;
     padding: 1em 1em 1em 2em;
     line-height: 1.9em;
+    animation: fade-In 2s ease 1.9s;
+   transition: transform 0.1;
+    transform: translateY(10%);
     /* width: %; */
+}
+
+@keyframes fade-up{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 img{
 
@@ -83,6 +102,8 @@ h3{
     text-transform: capitalize;
     padding-bottom: 2em;
     padding-top: 2em;
+    margin-top: 6em;
+    /* background-color: aquamarine; */
 }
 /* work on it on media */
 .prolist{
