@@ -1,22 +1,37 @@
 *{margin: 0; padding: 0; box-sizing: border-box; font-family: Georgia, 'Times New Roman', Times, serif;}
-
+html{
+}
 body{
     background-color: rgb(11, 11, 41);
     color: linen;
-    margin: auto 3em;
+    
+    width: 100%;
+    padding: auto 2em;
+}
+.box{
+
+    margin: 15em 2em ;
+
 }
 .mainnav{
     display: flex;
+    /* margin: 2em ; */
     width: 100%;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    background-color: darkslategray;
+   
 }
 .logos{
     display: flex;
     background-color: aliceblue;
     border-radius: 0.4em;
     margin: 1em;
-   margin-left: auto;
+   /* margin-left: ; */
    padding: 1em;
-    /* float: right; */
+    float: left;
     /* margin: 1 auto; */
 }
 .logo{
@@ -33,15 +48,20 @@ body{
   flex-direction: row;
   margin: 1em;
   
-    }
-    .navbar a:hover{
-        background-color: antiquewhite;
-        padding: 0.5em;
-        margin: auto 2em;
-    }
+}
+.navbar a:hover{
+   background-color: black;
+   color: cornsilk;
+    padding: 0.5em;
+    margin: auto 2em;
+}
 .navbar a{
     text-decoration: none;  
     padding: 2em;
+}
+.navbar div a{
+    color: antiquewhite;
+
 }
 h1{
     margin: 1em auto;
@@ -194,6 +214,7 @@ h3{
 ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
 }
 ul li{
     line-height: 2em;
@@ -205,4 +226,46 @@ ul li{
     display: flex;
     gap: 2em;
     margin-bottom: 12em;
+    width: 100%;
+}
+.t{
+    line-height: 1.9;
+    width: 20%;
+    box-shadow: 0 0 0.5em 0.2em #c3c3cd;
+    padding: 2em;
+    
+}
+
+@media only screen and (max-width:900px) {
+    .projects{
+        /* width: 100%; */
+        display: block;
+      
+    }
+    .pro1{
+        gap: 3em;
+        margin: 1em auto;
+        animation: fade-In 2s ease 1.9s;
+        transition: transform 0.1;
+         transform: translateX(10%);
+    }
+    ul{
+        display: block;
+    }
+    .about{
+        display: block; 
+        gap: 2em;
+        /* margin-bottom: 1em; */
+        width: 100%;
+    }
+    .t{
+        line-height: 1.9;
+        width: 80%;
+        /* gap: 2em; */
+        box-shadow: 0 0 0.5em 0.2em #c3c3cd;
+        padding: 2em;
+        margin: 3em auto;
+        
+    }
+
 }
